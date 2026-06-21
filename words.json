@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "word": "Acquisition",
+    "pronunciation": "/ˌækwɪˈzɪʃən/",
+    "question": "What does this word mean?",
+    "meaning": "Satın alma; bir şirketin başka bir şirketi veya varlığı devralması.",
+    "example": "The acquisition helped the company enter a new market."
+  },
+  {
+    "id": 2,
+    "word": "Agenda",
+    "pronunciation": "/əˈdʒendə/",
+    "question": "What does this word mean?",
+    "meaning": "Gündem; toplantıda konuşulacak konular listesi.",
+    "example": "Please send me the agenda before the meeting."
+  },
+  {
+    "id": 3,
+    "word": "Allocate",
+    "pronunciation": "/ˈæləkeɪt/",
+    "question": "What does this word mean?",
+    "meaning": "Tahsis etmek; kaynak, zaman veya bütçeyi belirli bir işe ayırmak.",
+    "example": "We need to allocate more budget to marketing."
+  },
+  {
+    "id": 4,
+    "word": "Approach",
+    "pronunciation": "/əˈproʊtʃ/",
+    "question": "What does this word mean?",
+    "meaning": "Yaklaşım; bir işi ele alma yöntemi.",
+    "example": "Their approach to customer service is very effective."
+  },
+  {
+    "id": 5,
+    "word": "Approval",
+    "pronunciation": "/əˈpruːvəl/",
+    "question": "What does this word mean?",
+    "meaning": "Onay; bir karar veya işlem için verilen izin.",
+    "example": "The project needs approval from senior management."
+  },
+  {
+    "id": 6,
+    "word": "Assessment",
+    "pronunciation": "/əˈsesmənt/",
+    "question": "What does this word mean?",
+    "meaning": "Değerlendirme; performansın, riskin veya durumun incelenmesi.",
+    "example": "The manager completed the performance assessment."
+  },
+  {
+    "id": 7,
+    "word": "Asset",
+    "pronunciation": "/ˈæset/",
+    "question": "What does this word mean?",
+    "meaning": "Varlık; şirkete değer katan sahip olunan şey.",
+    "example": "A strong brand is a valuable asset."
+  },
+  {
+    "id": 8,
+    "word": "Benchmark",
+    "pronunciation": "/ˈbentʃmɑːrk/",
+    "question": "What does this word mean?",
+    "meaning": "Kıyaslama ölçütü; performansı karşılaştırmak için kullanılan standart.",
+    "example": "We used last year's sales as a benchmark."
+  },
+  {
+    "id": 9,
+    "word": "Bid",
+    "pronunciation": "/bɪd/",
+    "question": "What does this word mean?",
+    "meaning": "Teklif vermek; ihale veya satın alma sürecinde fiyat sunmak.",
+    "example": "Three suppliers submitted a bid for the contract."
+  },
+  {
+    "id": 10,
+    "word": "Budget",
+    "pronunciation": "/ˈbʌdʒɪt/",
+    "question": "What does this word mean?",
+    "meaning": "Bütçe; belirli bir iş için ayrılan para planı.",
+    "example": "The department must stay within its annual budget."
+  },
+  {
+    "id": 11,
+    "word": "Capacity",
+    "pronunciation": "/kəˈpæsəti/",
+    "question": "What does this word mean?",
+    "meaning": "Kapasite; üretim, çalışma veya hizmet verme gücü.",
+    "example": "The factory is operating at full capacity."
+  },
+  {
+    "id": 12,
+    "word": "Client",
+    "pronunciation": "/ˈklaɪənt/",
+    "question": "What does this word mean?",
+    "meaning": "Müşteri; profesyonel hizmet alan kişi veya şirket.",
+    "example": "The client requested a detailed proposal."
+  },
+  {
+    "id": 13,
+    "word": "Collaboration",
+    "pronunciation": "/kəˌlæbəˈreɪʃən/",
+    "question": "What does this word mean?",
+    "meaning": "İş birliği; ortak hedef için birlikte çalışma.",
+    "example": "Successful collaboration between teams improved the result."
+  },
+  {
+    "id": 14,
+    "word": "Commission",
+    "pronunciation": "/kəˈmɪʃən/",
+    "question": "What does this word mean?",
+    "meaning": "Komisyon; satış veya işlem üzerinden alınan ücret.",
+    "example": "Sales representatives receive a commission for each deal."
+  },
+  {
+    "id": 15,
+    "word": "Commodity",
+    "pronunciation": "/kəˈmɑːdəti/",
+    "question": "What does this word mean?",
+    "meaning": "Emtia; ticareti yapılan ham madde veya temel ürün.",
+    "example": "Oil is one of the most traded commodities."
+  },
+  {
+    "id": 16,
+    "word": "Compliance",
+    "pronunciation": "/kəmˈplaɪəns/",
+    "question": "What does this word mean?",
+    "meaning": "Uyum; yasa, kural veya standartlara uygun hareket etme.",
+    "example": "The company must ensure compliance with safety regulations."
+  },
+  {
+    "id": 17,
+    "word": "Conduct",
+    "pronunciation": "/kənˈdʌkt/",
+    "question": "What does this word mean?",
+    "meaning": "Yürütmek; bir faaliyet, araştırma veya toplantı yapmak.",
+    "example": "We will conduct a customer survey next month."
+  },
+  {
+    "id": 18,
+    "word": "Conflict",
+    "pronunciation": "/ˈkɑːnflɪkt/",
+    "question": "What does this word mean?",
+    "meaning": "Çatışma; anlaşmazlık veya çıkar uyuşmazlığı.",
+    "example": "The manager helped resolve the conflict between departments."
+  },
+  {
+    "id": 19,
+    "word": "Constraint",
+    "pronunciation": "/kənˈstreɪnt/",
+    "question": "What does this word mean?",
+    "meaning": "Kısıt; bir işi sınırlayan faktör.",
+    "example": "Time is the biggest constraint in this project."
+  },
+  {
+    "id": 20,
+    "word": "Contract",
+    "pronunciation": "/ˈkɑːntrækt/",
+    "question": "What does this word mean?",
+    "meaning": "Sözleşme; taraflar arasında resmi anlaşma.",
+    "example": "Both companies signed the contract yesterday."
+  },
+  {
+    "id": 21,
+    "word": "Contribution",
+    "pronunciation": "/ˌkɑːntrɪˈbjuːʃən/",
+    "question": "What does this word mean?",
+    "meaning": "Katkı; bir işe sağlanan destek veya değer.",
+    "example": "Her contribution to the project was significant."
+  },
+  {
+    "id": 22,
+    "word": "Cost-effective",
+    "pronunciation": "/ˌkɔːst ɪˈfektɪv/",
+    "question": "What does this word mean?",
+    "meaning": "Maliyet açısından verimli; harcanan paraya göre iyi sonuç veren.",
+    "example": "Outsourcing can be a cost-effective solution."
+  },
+  {
+    "id": 23,
+    "word": "Deadline",
+    "pronunciation": "/ˈdedlaɪn/",
+    "question": "What does this word mean?",
+    "meaning": "Son teslim tarihi.",
+    "example": "The deadline for the report is Friday."
+  },
+  {
+    "id": 24,
+    "word": "Decline",
+    "pronunciation": "/dɪˈklaɪn/",
+    "question": "What does this word mean?",
+    "meaning": "Azalmak; düşüş göstermek.",
+    "example": "Sales declined during the first quarter."
+  },
+  {
+    "id": 25,
+    "word": "Demand",
+    "pronunciation": "/dɪˈmænd/",
+    "question": "What does this word mean?",
+    "meaning": "Talep; bir ürün veya hizmete olan istek.",
+    "example": "Demand for electric cars is increasing."
+  },
+  {
+    "id": 26,
+    "word": "Department",
+    "pronunciation": "/dɪˈpɑːrtmənt/",
+    "question": "What does this word mean?",
+    "meaning": "Departman; şirket içindeki bölüm.",
+    "example": "She works in the finance department."
+  },
+  {
+    "id": 27,
+    "word": "Determine",
+    "pronunciation": "/dɪˈtɜːrmɪn/",
+    "question": "What does this word mean?",
+    "meaning": "Belirlemek; karar vermek veya tespit etmek.",
+    "example": "We need to determine the main cause of the delay."
+  },
+  {
+    "id": 28,
+    "word": "Distribute",
+    "pronunciation": "/dɪˈstrɪbjuːt/",
+    "question": "What does this word mean?",
+    "meaning": "Dağıtmak; ürün, bilgi veya kaynakları ulaştırmak.",
+    "example": "The company distributes products across Europe."
+  },
+  {
+    "id": 29,
+    "word": "Diversify",
+    "pronunciation": "/daɪˈvɜːrsɪfaɪ/",
+    "question": "What does this word mean?",
+    "meaning": "Çeşitlendirmek; riski azaltmak için farklı alanlara yaymak.",
+    "example": "The firm plans to diversify its product range."
+  },
+  {
+    "id": 30,
+    "word": "Efficiency",
+    "pronunciation": "/ɪˈfɪʃənsi/",
+    "question": "What does this word mean?",
+    "meaning": "Verimlilik; kaynakları boşa harcamadan iyi sonuç alma.",
+    "example": "Automation improved the efficiency of the process."
+  },
+  {
+    "id": 31,
+    "word": "Employee",
+    "pronunciation": "/ɪmˈplɔɪiː/",
+    "question": "What does this word mean?",
+    "meaning": "Çalışan; bir şirkette ücret karşılığı çalışan kişi.",
+    "example": "Every employee must attend the training."
+  },
+  {
+    "id": 32,
+    "word": "Employer",
+    "pronunciation": "/ɪmˈplɔɪər/",
+    "question": "What does this word mean?",
+    "meaning": "İşveren; çalışan istihdam eden kişi veya şirket.",
+    "example": "A good employer supports professional development."
+  },
+  {
+    "id": 33,
+    "word": "Enhance",
+    "pronunciation": "/ɪnˈhæns/",
+    "question": "What does this word mean?",
+    "meaning": "Geliştirmek; kalitesini veya etkisini artırmak.",
+    "example": "The new software will enhance team productivity."
+  },
+  {
+    "id": 34,
+    "word": "Enterprise",
+    "pronunciation": "/ˈentərpraɪz/",
+    "question": "What does this word mean?",
+    "meaning": "Kuruluş; işletme; büyük şirket yapısı.",
+    "example": "The enterprise expanded into three new countries."
+  },
+  {
+    "id": 35,
+    "word": "Estimate",
+    "pronunciation": "/ˈestɪmeɪt/",
+    "question": "What does this word mean?",
+    "meaning": "Tahmin etmek; yaklaşık hesaplamak.",
+    "example": "Can you estimate the total cost of the project?"
+  },
+  {
+    "id": 36,
+    "word": "Evaluate",
+    "pronunciation": "/ɪˈvæljuːeɪt/",
+    "question": "What does this word mean?",
+    "meaning": "Değerlendirmek; değerini veya başarısını ölçmek.",
+    "example": "We need to evaluate the supplier's performance."
+  },
+  {
+    "id": 37,
+    "word": "Expand",
+    "pronunciation": "/ɪkˈspænd/",
+    "question": "What does this word mean?",
+    "meaning": "Genişlemek; büyütmek.",
+    "example": "The company wants to expand its operations abroad."
+  },
+  {
+    "id": 38,
+    "word": "Expense",
+    "pronunciation": "/ɪkˈspens/",
+    "question": "What does this word mean?",
+    "meaning": "Gider; harcama.",
+    "example": "Travel expenses must be approved by the manager."
+  },
+  {
+    "id": 39,
+    "word": "Expertise",
+    "pronunciation": "/ˌekspɜːrˈtiːz/",
+    "question": "What does this word mean?",
+    "meaning": "Uzmanlık; belirli bir alanda bilgi ve beceri.",
+    "example": "We need someone with expertise in supply chain management."
+  },
+  {
+    "id": 40,
+    "word": "Facility",
+    "pronunciation": "/fəˈsɪləti/",
+    "question": "What does this word mean?",
+    "meaning": "Tesis; belirli bir amaç için kullanılan bina veya alan.",
+    "example": "The company opened a new production facility."
+  },
+  {
+    "id": 41,
+    "word": "Forecast",
+    "pronunciation": "/ˈfɔːrkæst/",
+    "question": "What does this word mean?",
+    "meaning": "Tahmin; gelecekteki sonuçları öngörme.",
+    "example": "The sales forecast looks positive for next quarter."
+  },
+  {
+    "id": 42,
+    "word": "Framework",
+    "pronunciation": "/ˈfreɪmwɜːrk/",
+    "question": "What does this word mean?",
+    "meaning": "Çerçeve; bir sistemi veya süreci düzenleyen yapı.",
+    "example": "We need a clear framework for decision-making."
+  },
+  {
+    "id": 43,
+    "word": "Funding",
+    "pronunciation": "/ˈfʌndɪŋ/",
+    "question": "What does this word mean?",
+    "meaning": "Finansman; bir proje veya iş için sağlanan para.",
+    "example": "The startup received funding from investors."
+  },
+  {
+    "id": 44,
+    "word": "Generate",
+    "pronunciation": "/ˈdʒenəreɪt/",
+    "question": "What does this word mean?",
+    "meaning": "Üretmek; oluşturmak; gelir veya sonuç yaratmak.",
+    "example": "The campaign generated many new leads."
+  },
+  {
+    "id": 45,
+    "word": "Growth",
+    "pronunciation": "/ɡroʊθ/",
+    "question": "What does this word mean?",
+    "meaning": "Büyüme; gelişme veya artış.",
+    "example": "The company achieved strong growth this year."
+  },
+  {
+    "id": 46,
+    "word": "Guideline",
+    "pronunciation": "/ˈɡaɪdlaɪn/",
+    "question": "What does this word mean?",
+    "meaning": "Kılavuz; nasıl hareket edileceğini gösteren öneri veya kural.",
+    "example": "Please follow the company guidelines."
+  },
+  {
+    "id": 47,
+    "word": "Handle",
+    "pronunciation": "/ˈhændəl/",
+    "question": "What does this word mean?",
+    "meaning": "Ele almak; yönetmek; bir işi halletmek.",
+    "example": "She knows how to handle difficult clients."
+  },
+  {
+    "id": 48,
+    "word": "Implement",
+    "pronunciation": "/ˈɪmplɪment/",
+    "question": "What does this word mean?",
+    "meaning": "Uygulamak; bir planı veya sistemi hayata geçirmek.",
+    "example": "The company will implement a new HR system."
+  },
+  {
+    "id": 49,
+    "word": "Incentive",
+    "pronunciation": "/ɪnˈsentɪv/",
+    "question": "What does this word mean?",
+    "meaning": "Teşvik; insanları motive eden ödül veya avantaj.",
+    "example": "The bonus is an incentive for better performance."
+  },
+  {
+    "id": 50,
+    "word": "Income",
+    "pronunciation": "/ˈɪnkʌm/",
+    "question": "What does this word mean?",
+    "meaning": "Gelir; kazanılan para.",
+    "example": "The business has several sources of income."
+  },
+  {
+    "id": 51,
+    "word": "Industry",
+    "pronunciation": "/ˈɪndəstri/",
+    "question": "What does this word mean?",
+    "meaning": "Sektör; belirli ürün veya hizmetleri kapsayan iş alanı.",
+    "example": "The technology industry changes very quickly."
+  },
+  {
+    "id": 52,
+    "word": "Insight",
+    "pronunciation": "/ˈɪnsaɪt/",
+    "question": "What does this word mean?",
+    "meaning": "İçgörü; bir konuyu daha iyi anlamaya yarayan bilgi.",
+    "example": "Customer feedback gave us valuable insights."
+  },
+  {
+    "id": 53,
+    "word": "Inventory",
+    "pronunciation": "/ˈɪnvəntɔːri/",
+    "question": "What does this word mean?",
+    "meaning": "Envanter; stoktaki ürün veya malzemelerin listesi.",
+    "example": "We check the inventory every week."
+  },
+  {
+    "id": 54,
+    "word": "Investment",
+    "pronunciation": "/ɪnˈvestmənt/",
+    "question": "What does this word mean?",
+    "meaning": "Yatırım; gelecekte kazanç sağlamak için ayrılan para veya kaynak.",
+    "example": "The company made a large investment in technology."
+  },
+  {
+    "id": 55,
+    "word": "Invoice",
+    "pronunciation": "/ˈɪnvɔɪs/",
+    "question": "What does this word mean?",
+    "meaning": "Fatura; mal veya hizmet karşılığı ödeme belgesi.",
+    "example": "Please send the invoice by email."
+  },
+  {
+    "id": 56,
+    "word": "Launch",
+    "pronunciation": "/lɔːntʃ/",
+    "question": "What does this word mean?",
+    "meaning": "Piyasaya sürmek; başlatmak.",
+    "example": "They will launch the new product next month."
+  },
+  {
+    "id": 57,
+    "word": "Lead",
+    "pronunciation": "/liːd/",
+    "question": "What does this word mean?",
+    "meaning": "Potansiyel müşteri; satış fırsatı.",
+    "example": "The sales team contacted every lead from the event."
+  },
+  {
+    "id": 58,
+    "word": "Liability",
+    "pronunciation": "/ˌlaɪəˈbɪləti/",
+    "question": "What does this word mean?",
+    "meaning": "Yükümlülük; borç veya hukuki sorumluluk.",
+    "example": "The company reduced its financial liabilities."
+  },
+  {
+    "id": 59,
+    "word": "Logistics",
+    "pronunciation": "/ləˈdʒɪstɪks/",
+    "question": "What does this word mean?",
+    "meaning": "Lojistik; ürünlerin taşınması, depolanması ve dağıtımı.",
+    "example": "Good logistics are essential for fast delivery."
+  },
+  {
+    "id": 60,
+    "word": "Maintenance",
+    "pronunciation": "/ˈmeɪntənəns/",
+    "question": "What does this word mean?",
+    "meaning": "Bakım; ekipman veya sistemleri çalışır durumda tutma.",
+    "example": "Regular maintenance prevents machine failures."
+  },
+  {
+    "id": 61,
+    "word": "Margin",
+    "pronunciation": "/ˈmɑːrdʒɪn/",
+    "question": "What does this word mean?",
+    "meaning": "Kâr marjı; satış fiyatı ile maliyet arasındaki fark oranı.",
+    "example": "The company improved its profit margin."
+  },
+  {
+    "id": 62,
+    "word": "Market share",
+    "pronunciation": "/ˈmɑːrkɪt ʃer/",
+    "question": "What does this word mean?",
+    "meaning": "Pazar payı; bir şirketin pazardaki satış oranı.",
+    "example": "The brand increased its market share last year."
+  },
+  {
+    "id": 63,
+    "word": "Merger",
+    "pronunciation": "/ˈmɜːrdʒər/",
+    "question": "What does this word mean?",
+    "meaning": "Birleşme; iki şirketin tek yapı altında birleşmesi.",
+    "example": "The merger created one of the largest companies in the sector."
+  },
+  {
+    "id": 64,
+    "word": "Negotiate",
+    "pronunciation": "/nɪˈɡoʊʃieɪt/",
+    "question": "What does this word mean?",
+    "meaning": "Müzakere etmek; anlaşma için görüşmek.",
+    "example": "We need to negotiate better payment terms."
+  },
+  {
+    "id": 65,
+    "word": "Objective",
+    "pronunciation": "/əbˈdʒektɪv/",
+    "question": "What does this word mean?",
+    "meaning": "Hedef; ulaşılmak istenen sonuç.",
+    "example": "Our main objective is to improve customer satisfaction."
+  },
+  {
+    "id": 66,
+    "word": "Outcome",
+    "pronunciation": "/ˈaʊtkʌm/",
+    "question": "What does this word mean?",
+    "meaning": "Sonuç; bir sürecin sonunda ortaya çıkan durum.",
+    "example": "The outcome of the negotiation was positive."
+  },
+  {
+    "id": 67,
+    "word": "Overhead",
+    "pronunciation": "/ˈoʊvərhed/",
+    "question": "What does this word mean?",
+    "meaning": "Genel gider; kira, elektrik gibi doğrudan üretime bağlı olmayan maliyet.",
+    "example": "The company reduced overhead costs by moving to a smaller office."
+  },
+  {
+    "id": 68,
+    "word": "Partnership",
+    "pronunciation": "/ˈpɑːrtnərʃɪp/",
+    "question": "What does this word mean?",
+    "meaning": "Ortaklık; iki tarafın birlikte çalışması.",
+    "example": "The partnership helped both companies grow."
+  },
+  {
+    "id": 69,
+    "word": "Performance",
+    "pronunciation": "/pərˈfɔːrməns/",
+    "question": "What does this word mean?",
+    "meaning": "Performans; başarı veya verim düzeyi.",
+    "example": "The team's performance improved this quarter."
+  },
+  {
+    "id": 70,
+    "word": "Policy",
+    "pronunciation": "/ˈpɑːləsi/",
+    "question": "What does this word mean?",
+    "meaning": "Politika; kurum içi kural veya resmi yaklaşım.",
+    "example": "The company has a strict remote work policy."
+  },
+  {
+    "id": 71,
+    "word": "Procurement",
+    "pronunciation": "/prəˈkjʊrmənt/",
+    "question": "What does this word mean?",
+    "meaning": "Tedarik; şirketin mal veya hizmet satın alma süreci.",
+    "example": "Procurement is responsible for selecting suppliers."
+  },
+  {
+    "id": 72,
+    "word": "Productivity",
+    "pronunciation": "/ˌproʊdʌkˈtɪvəti/",
+    "question": "What does this word mean?",
+    "meaning": "Üretkenlik; belirli sürede yapılan iş miktarı.",
+    "example": "Flexible working hours can increase productivity."
+  },
+  {
+    "id": 73,
+    "word": "Profit",
+    "pronunciation": "/ˈprɑːfɪt/",
+    "question": "What does this word mean?",
+    "meaning": "Kâr; gelirden maliyetler çıkarıldıktan sonra kalan para.",
+    "example": "The company made a profit for the first time."
+  },
+  {
+    "id": 74,
+    "word": "Proposal",
+    "pronunciation": "/prəˈpoʊzəl/",
+    "question": "What does this word mean?",
+    "meaning": "Teklif; plan veya iş önerisi.",
+    "example": "We prepared a proposal for the client."
+  },
+  {
+    "id": 75,
+    "word": "Purchase",
+    "pronunciation": "/ˈpɜːrtʃəs/",
+    "question": "What does this word mean?",
+    "meaning": "Satın almak; satın alma işlemi.",
+    "example": "The company plans to purchase new equipment."
+  },
+  {
+    "id": 76,
+    "word": "Quarter",
+    "pronunciation": "/ˈkwɔːrtər/",
+    "question": "What does this word mean?",
+    "meaning": "Çeyrek dönem; yılın üç aylık bölümü.",
+    "example": "Revenue increased in the second quarter."
+  },
+  {
+    "id": 77,
+    "word": "Quotation",
+    "pronunciation": "/kwoʊˈteɪʃən/",
+    "question": "What does this word mean?",
+    "meaning": "Fiyat teklifi; ürün veya hizmet için verilen fiyat bilgisi.",
+    "example": "The supplier sent us a quotation this morning."
+  },
+  {
+    "id": 78,
+    "word": "Recruit",
+    "pronunciation": "/rɪˈkruːt/",
+    "question": "What does this word mean?",
+    "meaning": "İşe almak; yeni çalışan bulmak.",
+    "example": "The company wants to recruit more engineers."
+  },
+  {
+    "id": 79,
+    "word": "Refund",
+    "pronunciation": "/ˈriːfʌnd/",
+    "question": "What does this word mean?",
+    "meaning": "Para iadesi.",
+    "example": "The customer requested a refund."
+  },
+  {
+    "id": 80,
+    "word": "Regulation",
+    "pronunciation": "/ˌreɡjuˈleɪʃən/",
+    "question": "What does this word mean?",
+    "meaning": "Düzenleme; resmi kural veya yasa.",
+    "example": "New regulations affected the banking industry."
+  },
+  {
+    "id": 81,
+    "word": "Revenue",
+    "pronunciation": "/ˈrevənuː/",
+    "question": "What does this word mean?",
+    "meaning": "Gelir; satışlardan veya faaliyetlerden elde edilen toplam para.",
+    "example": "Revenue grew by 15 percent this year."
+  },
+  {
+    "id": 82,
+    "word": "Risk",
+    "pronunciation": "/rɪsk/",
+    "question": "What does this word mean?",
+    "meaning": "Risk; zarara veya olumsuz sonuca yol açabilecek ihtimal.",
+    "example": "Every investment involves some level of risk."
+  },
+  {
+    "id": 83,
+    "word": "Schedule",
+    "pronunciation": "/ˈskedʒuːl/",
+    "question": "What does this word mean?",
+    "meaning": "Program; zaman çizelgesi.",
+    "example": "The project is behind schedule."
+  },
+  {
+    "id": 84,
+    "word": "Scope",
+    "pronunciation": "/skoʊp/",
+    "question": "What does this word mean?",
+    "meaning": "Kapsam; bir işin sınırları ve içeriği.",
+    "example": "We need to define the scope of the project."
+  },
+  {
+    "id": 85,
+    "word": "Segment",
+    "pronunciation": "/ˈseɡmənt/",
+    "question": "What does this word mean?",
+    "meaning": "Segment; pazarın veya müşteri grubunun belirli bölümü.",
+    "example": "The company targets the premium customer segment."
+  },
+  {
+    "id": 86,
+    "word": "Stakeholder",
+    "pronunciation": "/ˈsteɪkhoʊldər/",
+    "question": "What does this word mean?",
+    "meaning": "Paydaş; bir projeden veya karardan etkilenen kişi veya grup.",
+    "example": "We must communicate clearly with all stakeholders."
+  },
+  {
+    "id": 87,
+    "word": "Strategy",
+    "pronunciation": "/ˈstrætədʒi/",
+    "question": "What does this word mean?",
+    "meaning": "Strateji; hedefe ulaşmak için izlenen plan.",
+    "example": "The company changed its marketing strategy."
+  },
+  {
+    "id": 88,
+    "word": "Subcontractor",
+    "pronunciation": "/ˌsʌbˈkɑːntræktər/",
+    "question": "What does this word mean?",
+    "meaning": "Alt yüklenici; ana yüklenicinin bir işi devrettiği kişi veya şirket.",
+    "example": "The subcontractor completed the installation."
+  },
+  {
+    "id": 89,
+    "word": "Supplier",
+    "pronunciation": "/səˈplaɪər/",
+    "question": "What does this word mean?",
+    "meaning": "Tedarikçi; ürün veya hizmet sağlayan kişi ya da şirket.",
+    "example": "We need to find a reliable supplier."
+  },
+  {
+    "id": 90,
+    "word": "Supply chain",
+    "pronunciation": "/səˈplaɪ tʃeɪn/",
+    "question": "What does this word mean?",
+    "meaning": "Tedarik zinciri; ürünün hammaddeden müşteriye ulaşma süreci.",
+    "example": "The pandemic disrupted the global supply chain."
+  },
+  {
+    "id": 91,
+    "word": "Surplus",
+    "pronunciation": "/ˈsɜːrpləs/",
+    "question": "What does this word mean?",
+    "meaning": "Fazla; ihtiyaçtan veya talepten fazla olan miktar.",
+    "example": "The company sold its surplus inventory."
+  },
+  {
+    "id": 92,
+    "word": "Target",
+    "pronunciation": "/ˈtɑːrɡɪt/",
+    "question": "What does this word mean?",
+    "meaning": "Hedef; ulaşılmak istenen sayı veya sonuç.",
+    "example": "The sales team reached its monthly target."
+  },
+  {
+    "id": 93,
+    "word": "Terms",
+    "pronunciation": "/tɜːrmz/",
+    "question": "What does this word mean?",
+    "meaning": "Şartlar; bir anlaşmanın koşulları.",
+    "example": "We agreed on the payment terms."
+  },
+  {
+    "id": 94,
+    "word": "Trade-off",
+    "pronunciation": "/ˈtreɪd ɔːf/",
+    "question": "What does this word mean?",
+    "meaning": "Ödünleşim; bir avantaj için başka bir şeyden vazgeçme durumu.",
+    "example": "There is a trade-off between speed and quality."
+  },
+  {
+    "id": 95,
+    "word": "Transaction",
+    "pronunciation": "/trænˈzækʃən/",
+    "question": "What does this word mean?",
+    "meaning": "İşlem; alım satım veya para transferi.",
+    "example": "The bank recorded the transaction immediately."
+  },
+  {
+    "id": 96,
+    "word": "Turnover",
+    "pronunciation": "/ˈtɜːrnoʊvər/",
+    "question": "What does this word mean?",
+    "meaning": "Ciro veya çalışan devir oranı; bağlama göre şirket geliri ya da personel değişimi.",
+    "example": "High employee turnover can increase hiring costs."
+  },
+  {
+    "id": 97,
+    "word": "Vendor",
+    "pronunciation": "/ˈvendər/",
+    "question": "What does this word mean?",
+    "meaning": "Satıcı; ürün veya hizmet sağlayan kişi ya da firma.",
+    "example": "We selected a vendor for the software project."
+  },
+  {
+    "id": 98,
+    "word": "Viable",
+    "pronunciation": "/ˈvaɪəbəl/",
+    "question": "What does this word mean?",
+    "meaning": "Uygulanabilir; başarı şansı olan.",
+    "example": "The plan is financially viable."
+  },
+  {
+    "id": 99,
+    "word": "Workforce",
+    "pronunciation": "/ˈwɜːrkfɔːrs/",
+    "question": "What does this word mean?",
+    "meaning": "İşgücü; bir şirkette veya sektörde çalışan insanlar.",
+    "example": "The company invested in training its workforce."
+  },
+  {
+    "id": 100,
+    "word": "Workflow",
+    "pronunciation": "/ˈwɜːrkfloʊ/",
+    "question": "What does this word mean?",
+    "meaning": "İş akışı; bir işin adım adım ilerleme düzeni.",
+    "example": "The new tool improved the team's workflow."
+  }
+]

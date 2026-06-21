@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Şeri's App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Vocabulary Practice</p>
+          <h1>Şeri's App</h1>
+          <p class="subtitle">
+            İngilizce kelimeleri dinle, ardından anlamı ve kullanım örneğini aç.
+          </p>
+        </div>
+
+        <div class="stats">
+          <div>
+            <span id="totalCount">0</span>
+            <small>Total Words</small>
+          </div>
+        </div>
+      </header>
+
+      <section class="toolbar">
+        <div class="toolbar-row">
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="Kelime ara..."
+            aria-label="Search words"
+          />
+          <button id="resetBtn" type="button">Reset</button>
+        </div>
+
+        <div class="toolbar-row" style="margin-top: 12px">
+          <div
+            class="tab-group"
+            role="tablist"
+            aria-label="Kelime listesi sekmeleri"
+          >
+            <button
+              id="allTab"
+              class="tab active"
+              type="button"
+              role="tab"
+              aria-selected="true"
+            >
+              Tüm Kelimeler
+            </button>
+            <button
+              id="learnedTab"
+              class="tab"
+              type="button"
+              role="tab"
+              aria-selected="false"
+            >
+              Öğrendiğim Kelimeler
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="mobile-slider-controls" aria-label="Slider controls">
+        <button id="prevBtn" type="button" aria-label="Previous card">
+          ‹ Geri
+        </button>
+        <span id="slideCounter">0 / 0</span>
+        <button id="nextBtn" type="button" aria-label="Next card">
+          İleri ›
+        </button>
+      </section>
+
+      <section id="cardsContainer" class="cards" aria-live="polite"></section>
+
+      <p id="emptyMessage" class="empty hidden">Kelime bulunamadı.</p>
+
+      <section
+        id="learnedSection"
+        class="learned-section hidden"
+        aria-label="Öğrenilen kelimeler"
+      >
+        <div class="learned-header">
+          <div>
+            <p class="eyebrow">Öğrendiklerim</p>
+            <h2>Öğrenilen kelimeler</h2>
+          </div>
+          <div class="learned-counter">
+            <span id="learnedCount">0</span>
+            <small>learned</small>
+          </div>
+        </div>
+
+        <div id="learnedContainer" class="cards learned-cards"></div>
+        <p id="learnedEmptyMessage" class="empty hidden">
+          Henüz öğrendiğin kelime yok.
+        </p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
